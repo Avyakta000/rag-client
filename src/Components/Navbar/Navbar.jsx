@@ -3,8 +3,8 @@ import './Navbar.css'
 import { assets } from '../../assets/assets'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus, faFile } from '@fortawesome/free-solid-svg-icons';
-import Home from '../Home/Home';
-import Footer from '../Footer/Footer';
+// import Home from '../Home/Home';
+// import Footer from '../Footer/Footer';
 import { ChatContext } from '../../context/ChatContextProvider';
 const viteApiUrl = import.meta.env.VITE_API_URL;
 
