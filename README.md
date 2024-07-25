@@ -1,8 +1,22 @@
-# React + Vite
+# RAG Application Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend of a Retrieval-Augmented Generation (RAG) application built using React. The application interacts with a backend developed using FastAPI and integrates various technologies like Hugging Face, vectore using Chroma DB ,embeddings , Pymupdf and Langchain.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **User Interface**:Minimalistic UI built with React.
+- **File Upload**: Upload files to the backend for processing.
+- **Question & Answer**: Ask questions and get answers based on the uploaded documents.
+- **Loading State**: Shows a loading spinner while waiting for responses.
+
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **Fetch API**: For making HTTP requests to the backend.
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   https://github.com/Avyakta000/upload_file_rag_client.git
