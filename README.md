@@ -1,6 +1,6 @@
 # RAG Application Frontend
 
-This is the frontend of a Retrieval-Augmented Generation (RAG) application built using React. The application interacts with a backend developed using FastAPI and integrates various technologies like Hugging Face, vectore using Chroma DB ,embeddings , Pymupdf and Langchain.
+This is the frontend of a Retrieval-Augmented Generation (RAG) application built using React. The application interacts with a backend developed using FastAPI and integrates various technologies like Hugging Face, vectorstore using Chroma DB ,embeddings , Pymupdf and Langchain.
 
 ## Features
 
