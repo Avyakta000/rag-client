@@ -16,7 +16,7 @@ This is the frontend of a Retrieval-Augmented Generation (RAG) application built
 
 ## Installation
 
-1. **Clone the repository:**
+ **Clone the repository:**
 
    ```bash
    https://github.com/Avyakta000/upload_file_rag_client.git
