@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import { ChatContext } from '../../context/ChatContextProvider';
 const viteApiUrl = import.meta.env.VITE_API_URL;
+const viteUrl = import.meta.env.VITE_URL;
 const Footer = () => {
     
     //    context
@@ -40,6 +41,9 @@ const Footer = () => {
             console.log(url, 'url')
             const response = await fetch(url, {
                 method: 'POST',
+                 headers: {
+                   'Origin': `${viteUrl}`
+                },
                 body: formData,
             });
 
