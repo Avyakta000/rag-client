@@ -34,16 +34,16 @@ const Footer = () => {
         formData.append('input_text', text)
         formData.append('file',fileName)
 
-        console.log(text, 'text footer/${file}/')
+        console.log(text, `text footer/${file}/`)
 
         try {
             const url = `${viteApiUrl}/ask-questions/`
             console.log(url, 'url')
             const response = await fetch(url, {
                 method: 'POST',
-                 headers: {
-                   'Origin': `${viteUrl}`
-                },
+                //  headers: {
+                //    'Origin': `${viteUrl}`
+                // },
                 body: formData,
             });
 
