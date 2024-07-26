@@ -34,7 +34,7 @@ const Footer = () => {
         formData.append('input_text', text)
         formData.append('file',fileName)
 
-        console.log(text, `text footer/${file}/`)
+        console.log(text, `text footer/${fileName}/`)
 
         try {
             const url = `${viteApiUrl}/ask-questions/`
